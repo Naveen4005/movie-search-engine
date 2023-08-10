@@ -1,0 +1,35 @@
+.filter{
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.665);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.imgs{
+    height: 300px;
+    width: 200px;
+    background-size: 200px 300px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.imgs:hover .filter{
+    display: flex;
+}
+#result{
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    cursor: pointer;
+    padding: 5px;
+}
+input{
+    padding: 7px;
+    outline: none;
+    background-color: rgb(228, 228, 228);
+    border: none;
+    border-radius: 20px;
+}
